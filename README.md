@@ -7,7 +7,8 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> </a>
 
-<h3><u>Required Modules : </u></h3>
 `pip install pywhatkit`
+<br><br>
 `pip install pyautogui`
+<br><br>
 `pip install time`
