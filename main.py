@@ -1,11 +1,19 @@
 import pyautogui
 import time
+import pywhatkit as pyw
 
+
+i=0
 time.sleep(3)
 count = 1
 
-while count>0:
-    pyautogui.typewrite("Welcome to WhatsApp SMS Bomber, made by Arkya "+str(count))
+def bomb():
+    pyautogui.typewrite("Welcome to WhatsApp SMS Bomber, made by Arkya ")
     pyautogui.press("enter")
-    count = count + 1
 
+def auto_msg():
+    pyw.sendwhatmsg('Target-Phone-Number',' ',Hour,Minute)   # Please Replace the 'Target-Phone-Number','Hour', 'Minute' as you required
+    while count>0:
+        bomb()
+while i<10:
+    auto_msg()
