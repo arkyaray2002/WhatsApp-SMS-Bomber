@@ -12,7 +12,7 @@ def bomb():
     pyautogui.press("enter")
 
 def auto_msg():
-    pyw.sendwhatmsg('Target-Phone-Number',' ',Hour,Minute)   # Please Replace the 'Target-Phone-Number','Hour', 'Minute' as you required
+    pyw.sendwhatmsg('Target-Phone-Number',' ',Hour,Minute)   # ❗❗❗ Please Replace the 'Target-Phone-Number','Hour', 'Minute' as you required
     while count>0:
         bomb()
 while i<10:
