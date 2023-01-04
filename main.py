@@ -8,7 +8,7 @@ time.sleep(3)
 count = 1
 
 def bomb():
-    pyautogui.typewrite("Welcome to WhatsApp SMS Bomber, made by Arkya ")
+    pyautogui.typewrite("Welcome to WhatsApp SMS Bomber💣💥 made by Arkya ")
     pyautogui.press("enter")
 
 def auto_msg():
